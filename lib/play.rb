@@ -37,6 +37,8 @@ end
 
 def play(board)
   turn(board)
-9.turn.each do |turn|
+  spaces_available = board.size
+  spaces_to_start = 0
+if
 end
 end
