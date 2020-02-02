@@ -36,9 +36,15 @@ def turn(board)
 end
 
 def play(board)
-  turn(board)
+
   spaces_available = board.size
   spaces_to_start = 0
-if
+
+  loop do
+    if spaces_to_start < spaces_available
+      turn(board)
+      spaces_to_start += 1
+    else
+      break
 end
 end
