@@ -37,9 +37,6 @@ end
 
 def play(board)
   turn(board)
-  player_turn = 0
-  while player_turn < 9
-    puts "X"
-    player_turn += 1
+turn.each do |turn|
 end
 end
