@@ -37,6 +37,6 @@ end
 
 def play(board)
   turn(board)
-turn.each do |turn|
+9 turn.each do |turn|
 end
 end
